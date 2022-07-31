@@ -46,8 +46,8 @@ public class DrinkCategoryActivity extends AppCompatActivity implements MenuRecy
 
 
     private void setShopMenu() {
-        menulist.add(new Menu("Cappuchino"));
         menulist.add(new Menu("Latte"));
+        menulist.add(new Menu("Cappuchino"));
         menulist.add(new Menu("Filter Coffee"));
     }
 
