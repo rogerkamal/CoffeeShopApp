@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activities.MainActivity">
 
 
     <ImageView
@@ -13,8 +13,7 @@
         android:layout_height="200dp"
         android:layout_centerHorizontal="true"
         android:contentDescription="@string/app_logo"
-        android:src="@drawable/coffemain"
-       />
+        android:src="@drawable/coffemain" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/menuRecyclerView"

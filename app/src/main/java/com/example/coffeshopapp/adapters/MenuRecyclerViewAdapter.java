@@ -14,7 +14,6 @@ import com.example.coffeshopapp.model.Menu;
 
 import java.util.ArrayList;
 
-
 public class MenuRecyclerViewAdapter extends RecyclerView.Adapter<MenuRecyclerViewAdapter.ViewHolder> {
     private OnitemViewClicklistener onitemViewClicklistener;
     private final ArrayList<Menu> menulist;

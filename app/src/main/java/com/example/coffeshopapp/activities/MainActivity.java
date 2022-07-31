@@ -1,4 +1,4 @@
-package com.example.coffeshopapp;
+package com.example.coffeshopapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.example.coffeshopapp.R;
 import com.example.coffeshopapp.model.Menu;
 
 import java.util.ArrayList;

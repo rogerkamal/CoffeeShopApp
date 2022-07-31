@@ -1,4 +1,4 @@
-package com.example.coffeshopapp;
+package com.example.coffeshopapp.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.coffeshopapp.R;
 import com.example.coffeshopapp.model.Menu;
 
 import java.util.ArrayList;
@@ -25,7 +26,7 @@ public class DrinkCategoryActivity extends AppCompatActivity implements MenuRecy
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_drink);
+        setContentView(R.layout.activity_drink_menu);
 
         MenuRecyclerView = findViewById(R.id.menuRecyclerView);
         menulist = new ArrayList<>();
