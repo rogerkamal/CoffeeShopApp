@@ -10,7 +10,7 @@
         android:layout_width="334dp"
         android:layout_height="302dp"
         android:layout_marginTop="16dp"
-        android:text="TextView"
+        android:text="how to pass a data model with an intent in android"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
